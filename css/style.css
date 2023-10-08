@@ -155,6 +155,43 @@ a{
 .blog img{
     width: 100%;
 }
+footer{
+    background-color: var(--light-color);
+    margin-top: 120px;
+}
+
+input, textarea{
+    border: none;
+    padding: 8px;
+    margin: 8px 0;
+}
+input:focus-visible, textarea:focus-visible{
+    outline: none;
+}
+#name,#email{
+    width: calc(50% - 7px);
+}
+#name{
+    margin-right: 8px;
+}
+#subject,#details{
+    width: 100%;
+}
+.red-btn{
+    display: block;
+    width: 150px;
+    height: 60px;
+    background-color: var(--red-color);
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 21px;
+    /* vertical-align: bottom; */
+}
+header i, footer i{
+    color: black;
+    margin: 0 4px;
+}
 @media (max-width:797px) {
     nav{
         width: 0;
